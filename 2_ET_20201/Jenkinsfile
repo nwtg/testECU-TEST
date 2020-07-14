@@ -12,21 +12,15 @@ pipeline {
             // Echo
             bat label: '', script: '''python .\\getJenkinsNode.py "2_ET_20201"'''
             
-            //script{
-            //    load('jenkinsNode.properties')}
-            //echo "${env.jenkinsNode}"
-
             script{
-                def props = readProperties file: 'jenkinsNode.properties'
-                def jenkinsNode = props['env.jenkinsNode']}
-            echo jenkinsNode
+                load('jenkinsNode.properties')}
+            echo "${env.jenkinsNode}"
          }
       }
       stage('Execute test project') {
         agent {
             node {
-                //label "${env.jenkinsNode}"
-                label "${jenkinsNode}"
+                label "${env.jenkinsNode}"
             }
         }
         steps {
