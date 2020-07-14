@@ -55,5 +55,5 @@ wsname = params['wsname']
 
 idlestBench = getJenkinsNode(ip, authKey, projectId, ws_bench, wsname, bench_node)
 with open(r'jenkinsNode.properties', 'w') as f:
-    f.write('env.jenkinsNode={}'.format(repr(idlestBench)))
+    f.write('env.jenkinsNode="{}"'.format(idlestBench))
 # print(idlestBench)
