@@ -16,7 +16,7 @@ pipeline {
             echo "${env.jenkinsNode}"
             script{
                     def props = readProperties file: 'jenkinsNode.properties'}
-            echo """${props['env.jenkinsNode']}"""
+            //echo """${props['env.jenkinsNode']}"""
          }
       }
       stage('Execute test project') {
