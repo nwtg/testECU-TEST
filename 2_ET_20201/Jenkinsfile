@@ -14,7 +14,7 @@ pipeline {
             
             script{
                 load('jenkinsNode.properties')}
-            echo jeasdnkinasdasNodeasda
+            //echo jeasdnkinasdasNodeasda
 
             script{
                 def props = readProperties file: 'jenkinsNode.properties'
