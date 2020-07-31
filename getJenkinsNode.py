@@ -45,10 +45,10 @@ def loadJson(jsonPath):
     text = json.loads(jsonContent)
     return text
 
-ip = '10.211.55.2'
+ip = '127.0.0.1'
 bench_node = 'bench_node_mapping.json'
 ws_bench = 'ws_bench_mapping.json'
-authKey = 'SPsdDWt2WinZ1iZBN9Sb4ehCZe41qZkLJV7uKiBiBhLwS6kOuivdxkbLbAiRIOwrPr_pxnetu0GqK4LagJc8hq-MvraD7YWG9D971fR-X0QxIy7ldwayRl8-CYGEnK7kVKUw4PF3QAWwhFjiN26Khs-RqGuWickjnPFgswXsowFSiBhcPGpEIU10wHG0HdBLtrK_W0noOseSNM2WBeqTA6KZKYfIjab06v5DZJ-rKZRjJU0EMhhP2WhkEPVxPUZeeM7ZPXuFa_1YG9QbfQVGe86EU2eDIrZcfWIaCZrhiZMY_To3O6Zrj2AHHfNBh5yyQRi33V_KNsp2R_fy7qjte6FzXFUoSNHki57XoeXEiq0rZsYunUtvjkZu6hz78bz0f86RxvNlV6K9GKCHnduGGQ=='
+authKey = 'paxAxunszIK1YjFegnHLIoYmAZGRFmdBZV0NsO-yJTbINMCbvYkPb34RLDAlgSqn4RksSoSYmdu3BXsJimbPR193YsgMzOBDfedQGVByruZhlhaTKP66OVCjeVN0FMCmftQLlSZKiQqzoEFUioSZIvG3ZMcGbChx3tN1yxkGW1Q5uip6EyJfkR53ZZLDXXTZ0VDn8Lvxw5GQJab9SQNsBdIkG-0DWtnhWdxeT7fNlbo9roAo9sZEIz_pmBSwIE_gWihyv1Srycc7ygPaL1FIdweE9XI7PB67kWpUSQfkBsm-LkeeGShm84qYdh9B1ZfDISpoAlIAbxM4B43D7R-PnGlJ7rkYpg5U2eclEFVtSJO-TkQHVVfrH5SQ2tUOzf8yOjaKtPtDw422CnVc1U4mPw=='
 projectId = '1'
 wsname = params['wsname']
 

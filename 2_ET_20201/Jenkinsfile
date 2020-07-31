@@ -5,7 +5,7 @@ pipeline {
         agent {
             node {
                 // any Windows node
-                label 'YT'
+                label 'Master'
             }
         }
          steps {
