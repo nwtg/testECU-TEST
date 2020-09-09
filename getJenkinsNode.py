@@ -32,10 +32,13 @@ def getJenkinsNode(ip, authKey, projectId, wbmap, wsname, bnmap):
                 nodeLabel = loadJson(bnmap)[0][bench]
                 return nodeLabel
             else:
-                exeProgress = exeInfo['actual']/exeInfo['total']
+                if exeInfo['total'] == 0:
+                    exeProgress = 0
+                else:
+                    exeProgress = exeInfo['actual']/exeInfo['total']
                 exeProgressDict[bench] = exeProgress
             
-    idlestBench = list(exeProgressDict.keys())[list(exeProgressDict.values()).index(min(exeProgressDict.values()))]
+    idlestBench = list(exeProgressDict.keys())[list(exeProgressDict.values()).index(max(exeProgressDict.values()))]
     nodeLabel = loadJson(bnmap)[0][idlestBench]
     return nodeLabel
 
