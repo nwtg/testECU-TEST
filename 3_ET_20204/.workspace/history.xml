@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HISTORY-SETTINGS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RECENT-TCFFILES>
+		<ELEMENT xsi:type="string">Configurations\test.tcf</ELEMENT>
+	</RECENT-TCFFILES>
+	<LAST-TCF-SAVED xsi:type="boolean">False</LAST-TCF-SAVED>
+	<RECENT-TBC-FILES>
+		<ELEMENT xsi:type="string">Configurations\test.tbc</ELEMENT>
+	</RECENT-TBC-FILES>
+	<LAST-TBC-SAVED xsi:type="boolean">False</LAST-TBC-SAVED>
+	<RECENT-PROJECTS-PACKAGES>
+		<ELEMENT xsi:type="string">Packages\test_Failed.pkg</ELEMENT>
+		<ELEMENT xsi:type="string">Packages\test_Success.pkg</ELEMENT>
+		<ELEMENT xsi:type="string">Packages\test.prj</ELEMENT>
+		<ELEMENT xsi:type="string">Packages\test.pkg</ELEMENT>
+		<ELEMENT xsi:type="string">Configurations\test.tbc</ELEMENT>
+		<ELEMENT xsi:type="string">Configurations\test.tcf</ELEMENT>
+	</RECENT-PROJECTS-PACKAGES>
+	<RECENT-SEARCH-REQUESTS/>
+</HISTORY-SETTINGS>
