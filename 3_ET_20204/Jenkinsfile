@@ -5,7 +5,7 @@ pipeline {
       stage('Hello') {
          steps {
             echo 'Hello World'
-            echo 'ET'
+            echo 'Hello ECU-TEST Support China!'
          }
       }
       stage('Start ECU-TEST') {
