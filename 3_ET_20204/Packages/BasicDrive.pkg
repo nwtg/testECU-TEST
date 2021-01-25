@@ -587,6 +587,16 @@
 						</ASSIGNMENT>
 					</PARAM-ASSIGNMENTS>
 				</TESTSTEP>
+				<TESTSTEP format-rev="3" id="22814353-79de-4841-96ed-fe88b9b810aa" name="TsBlock" xsi:type="utility-2752ad1e-4fef-11dc-81d4-0013728784ee">
+					<ACTION xsi:type="I18NItem">
+						<MULTILANGDATA>
+							<ELEMENT dkey="en_US">
+								<DVALUE xsi:type="string">New block</DVALUE>
+							</ELEMENT>
+						</MULTILANGDATA>
+						<INITIAL-LANGUAGE xsi:type="string">en_US</INITIAL-LANGUAGE>
+					</ACTION>
+				</TESTSTEP>
 			</TESTSTEP>
 		</TESTSTEP>
 	</TESTSTEPS>
