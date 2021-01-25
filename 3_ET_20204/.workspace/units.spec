@@ -158,20 +158,6 @@
             <CURRENT-EXP>-2</CURRENT-EXP>
             <TIME-EXP>-3</TIME-EXP>
         </PHYSICAL-DIMENSION>
-        <PHYSICAL-DIMENSION ID="d_pressure_flow">
-            <SHORT-NAME>Pressure flow</SHORT-NAME>
-            <LONG-NAME>Pressure flow</LONG-NAME>
-            <DESC>physical dimension pressure flow</DESC>
-            <MASS-EXP>1</MASS-EXP>
-            <LENGTH-EXP>-1</LENGTH-EXP>
-            <TIME-EXP>-3</TIME-EXP>
-        </PHYSICAL-DIMENSION>
-        <PHYSICAL-DIMENSION ID="d_area">
-            <SHORT-NAME>Area</SHORT-NAME>
-            <LONG-NAME>Area</LONG-NAME>
-            <DESC>physical dimension area</DESC>
-            <LENGTH-EXP>2</LENGTH-EXP>
-        </PHYSICAL-DIMENSION>
     </PHYSICAL-DIMENSIONS>
     <UNITS>
         <UNIT ID="u_m">
@@ -375,14 +361,6 @@
             <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
             <PHYSICAL-DIMENSION-REF ID-REF="d_time"></PHYSICAL-DIMENSION-REF>
         </UNIT>
-        <UNIT ID="u_us">
-            <SHORT-NAME>us</SHORT-NAME>
-            <LONG-NAME>microsecond</LONG-NAME>
-            <DISPLAY-NAME>&#181;s</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>1000000</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_time"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
         <UNIT ID="u_min">
             <SHORT-NAME>min</SHORT-NAME>
             <LONG-NAME>minute</LONG-NAME>
@@ -446,54 +424,6 @@
             <FACTOR-SI-TO-UNIT>0.01</FACTOR-SI-TO-UNIT>
             <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
             <PHYSICAL-DIMENSION-REF ID-REF="d_pressure"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
-        <UNIT ID="u_psi">
-            <SHORT-NAME>psi</SHORT-NAME>
-            <LONG-NAME>pounds per square inch</LONG-NAME>
-            <DISPLAY-NAME>psi</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>0.00014503773773</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_pressure"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
-        <UNIT ID="u_inhg">
-            <SHORT-NAME>inHg</SHORT-NAME>
-            <LONG-NAME>inches of mercury</LONG-NAME>
-            <DISPLAY-NAME>inHg</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>0.0002953</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_pressure"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
-        <UNIT ID="u_inH2O">
-            <SHORT-NAME>inH2O</SHORT-NAME>
-            <LONG-NAME>inches of water</LONG-NAME>
-            <DISPLAY-NAME>inH&#8322;O</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>0.0040186465198521135</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_pressure"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
-        <UNIT ID="u_barps">
-            <SHORT-NAME>barps</SHORT-NAME>
-            <LONG-NAME>bar per second</LONG-NAME>
-            <DISPLAY-NAME>bar/s</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>0.00001</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_pressure_flow"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
-        <UNIT ID="u_inH2Ops">
-            <SHORT-NAME>inH2Ops</SHORT-NAME>
-            <LONG-NAME>Inches H2O per second</LONG-NAME>
-            <DISPLAY-NAME>inH&#8322;O/s</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>0.0040186465198521135</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_pressure_flow"></PHYSICAL-DIMENSION-REF>
-        </UNIT> 
-        <UNIT ID="u_Paps">
-            <SHORT-NAME>Paps</SHORT-NAME>
-            <LONG-NAME>Pascal per second</LONG-NAME>
-            <DISPLAY-NAME>Pa/s</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>1</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_pressure_flow"></PHYSICAL-DIMENSION-REF>
         </UNIT>
         <UNIT ID="u_v">
             <SHORT-NAME>volt</SHORT-NAME>
@@ -784,22 +714,6 @@
             <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
             <PHYSICAL-DIMENSION-REF ID-REF="d_mass_flow"></PHYSICAL-DIMENSION-REF>
         </UNIT>
-        <UNIT ID="u_lbmin">
-            <SHORT-NAME>lbmin</SHORT-NAME>
-            <LONG-NAME>pounds per minute</LONG-NAME>
-            <DISPLAY-NAME>lb/min</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>132.27735731092653</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_mass_flow"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
-        <UNIT ID="u_lbs">
-            <SHORT-NAME>lbs</SHORT-NAME>
-            <LONG-NAME>pounds per second</LONG-NAME>
-            <DISPLAY-NAME>lb/s</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>2.2046226218487757</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_mass_flow"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
         <UNIT ID="u_newton">
             <SHORT-NAME>newton</SHORT-NAME>
             <LONG-NAME>newton</LONG-NAME>
@@ -960,38 +874,6 @@
             <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
             <PHYSICAL-DIMENSION-REF ID-REF="d_resistance"></PHYSICAL-DIMENSION-REF>
         </UNIT>
-        <UNIT ID="u_m2">
-            <SHORT-NAME>m2</SHORT-NAME>
-            <LONG-NAME>square meter</LONG-NAME>
-            <DISPLAY-NAME>m&#178;</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>1</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_area"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
-        <UNIT ID="u_cm2">
-            <SHORT-NAME>cm2</SHORT-NAME>
-            <LONG-NAME>square centimeter</LONG-NAME>
-            <DISPLAY-NAME>cm&#178;</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>0.0001</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_area"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
-        <UNIT ID="u_sqft">
-            <SHORT-NAME>sq ft</SHORT-NAME>
-            <LONG-NAME>square foot</LONG-NAME>
-            <DISPLAY-NAME>ft&#178;</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>10.763910416709722</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_area"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
-        <UNIT ID="u_sqyd">
-            <SHORT-NAME>sq yd</SHORT-NAME>
-            <LONG-NAME>square yard</LONG-NAME>
-            <DISPLAY-NAME>yd&#178;</DISPLAY-NAME>
-            <FACTOR-SI-TO-UNIT>1.1959900463010802</FACTOR-SI-TO-UNIT>
-            <OFFSET-SI-TO-UNIT>0</OFFSET-SI-TO-UNIT>
-            <PHYSICAL-DIMENSION-REF ID-REF="d_area"></PHYSICAL-DIMENSION-REF>
-        </UNIT>
     </UNITS>
     <UNITGROUPS>
         <UNITGROUP ID="ug_units_europe">
@@ -1067,42 +949,5 @@
         <REFERENCE ID-REF="u_foot">feet</REFERENCE>
         <REFERENCE ID-REF="u_yard">yd</REFERENCE>
         <REFERENCE ID-REF="u_inch">"</REFERENCE>
-        <REFERENCE ID-REF="u_mile">mi</REFERENCE>
-        <REFERENCE ID-REF="u_inch">in</REFERENCE>
-        <REFERENCE ID-REF="u_mph">mi/h</REFERENCE>
-        <REFERENCE ID-REF="u_mps">m/s</REFERENCE>
-        <REFERENCE ID-REF="u_mpss">m/s^2</REFERENCE>
-        <REFERENCE ID-REF="u_ftpss">ft/s^2</REFERENCE>
-        <REFERENCE ID-REF="u_radpss">rad/s^2</REFERENCE>
-        <REFERENCE ID-REF="u_mpss">m/s^2</REFERENCE>
-        <REFERENCE ID-REF="u_ftpss">ft/s^2</REFERENCE>
-        <REFERENCE ID-REF="u_radpss">rad/s^2</REFERENCE>
-        <REFERENCE ID-REF="u_uampere">&#181;A</REFERENCE>
-        <REFERENCE ID-REF="u_Ohm">Ohm</REFERENCE>
-        <REFERENCE ID-REF="u_Ohm">ohm</REFERENCE>
-        <REFERENCE ID-REF="u_kOhm">kOhm</REFERENCE>
-        <REFERENCE ID-REF="u_MOhm">MOhm</REFERENCE>
-        <REFERENCE ID-REF="u_Ws">W*s</REFERENCE>
-        <REFERENCE ID-REF="u_Wh">W*h</REFERENCE>
-        <REFERENCE ID-REF="u_newtonm">N*m</REFERENCE>
-        <REFERENCE ID-REF="u_cms">m^3/s</REFERENCE>
-        <REFERENCE ID-REF="u_cfs">ft^3/s</REFERENCE>
-        <REFERENCE ID-REF="u_ul">uL</REFERENCE>
-        <REFERENCE ID-REF="u_ul">&#181;l</REFERENCE>
-        <REFERENCE ID-REF="u_ul">&#181;L</REFERENCE>
-        <REFERENCE ID-REF="u_ml">mL</REFERENCE>
-        <REFERENCE ID-REF="u_l">L</REFERENCE>
-        <REFERENCE ID-REF="u_cbin">in^3</REFERENCE>
-        <REFERENCE ID-REF="u_cbft">ft^3</REFERENCE>
-        <REFERENCE ID-REF="u_cbyd">yd^3</REFERENCE>
-        <REFERENCE ID-REF="u_psi">PSI</REFERENCE>
-        <REFERENCE ID-REF="u_inH2O">inH2O</REFERENCE>
-        <REFERENCE ID-REF="u_inH2Ops">inH2O/s</REFERENCE>
-        <REFERENCE ID-REF="u_sqft">square foot</REFERENCE>
-        <REFERENCE ID-REF="u_sqft">sq ft</REFERENCE>
-        <REFERENCE ID-REF="u_sqft">ft^2</REFERENCE>
-        <REFERENCE ID-REF="u_sqyd">square yard</REFERENCE>
-        <REFERENCE ID-REF="u_sqyd">sq yd</REFERENCE>
-        <REFERENCE ID-REF="u_sqyd">yd^2</REFERENCE>
     </REFERENCES>
 </UNIT-SPEC>
