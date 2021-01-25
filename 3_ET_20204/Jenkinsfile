@@ -2,12 +2,12 @@ pipeline {
    agent any
 
    stages {
-      stage('Hello') {
-         steps {
-            echo 'Hello World'
-            echo 'ET'
-         }
-      }
+      // stage('Hello') {
+      //    steps {
+      //       echo 'Hello World'
+      //       echo 'ET'
+      //    }
+      // }
       stage('Start ECU-TEST') {
          steps{
             startET toolName: 'ECU-TEST 2020.4', workspaceDir: 'C:\\Users\\Jerry\\Documents\\GitHub\\testECU-TEST\\3_ET_20204'
